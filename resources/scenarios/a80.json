@@ -3786,6 +3786,7 @@
       },
       "atpa_volumes": {
         "26R": {
+          "runway_threshold": "N033.38.58.206,W084.24.34.135",
           "length": 20,
           "left_width": 20000,
           "right_width": 20000,
@@ -3795,6 +3796,7 @@
           "2.5nm_distance": 10
         },
         "26L": {
+          "runway_threshold": "N033.38.48.487,W084.24.19.930",
           "length": 15,
           "left_width": 20000,
           "right_width": 20000,
@@ -3804,6 +3806,7 @@
           "2.5nm_distance": 10
         },
         "27R": {
+          "runway_threshold": "N033.38.04.959,W084.24.32.284",
           "length": 26,
           "left_width": 20000,
           "right_width": 20000,
@@ -3813,6 +3816,7 @@
           "2.5nm_distance": 10
         },
         "27L": {
+          "runway_threshold": "N033.37.54.582,W084.25.06.463",
           "length": 30,
           "left_width": 20000,
           "right_width": 15000,
@@ -3822,6 +3826,7 @@
           "2.5nm_distance": 10
         },
         "28": {
+          "runway_threshold": "N033.37.13.034,W084.25.06.168",
           "length": 30,
           "left_width": 20000,
           "right_width": 15000,
@@ -3831,6 +3836,7 @@
           "2.5nm_distance": 10
         },
         "8L": {
+          "runway_threshold": "N033.38.58.346,W084.26.20.349",
           "length": 30,
           "left_width": 20000,
           "right_width": 15000,
@@ -3840,6 +3846,7 @@
           "2.5nm_distance": 10
         },
         "8R": {
+          "runway_threshold": "N033.38.48.449,W084.26.17.973",
           "length": 30,
           "left_width": 20000,
           "right_width": 15000,
@@ -3849,6 +3856,7 @@
           "2.5nm_distance": 10
         },
         "9L": {
+          "runway_threshold": "N033.38.04.956,W084.26.52.531",
           "length": 30,
           "left_width": 20000,
           "right_width": 15000,
@@ -3858,6 +3866,7 @@
           "2.5nm_distance": 10
         },
         "9R": {
+          "runway_threshold": "N033.37.54.549,W084.26.52.541",
           "length": 30,
           "left_width": 20000,
           "right_width": 15000,
@@ -3867,6 +3876,7 @@
           "2.5nm_distance": 10
         },
         "10": {
+          "runway_threshold": "N033.37.12.999,W084.26.52.210",
           "left_width": 20000,
           "right_width": 15000,
           "excluded_scratchpads": ["I8R", "I9L", "I9R", "I8L"],
@@ -45762,7 +45772,7 @@
           "CHPPR1 EAST": "ATL_D_APP",
           "DEHAN3": "ATL_P_APP",
           "GLAVN2 EAST": "ATL_D_APP",
-          "GNDLF2": "ATL_Y_APP",
+          "GNDLF3": "ATL_Y_APP",
           "ONDRE1 EAST": "ATL_L_APP",
           "OZZZI2 EAST": "ATL_L_APP",
           "SITTH3": "ATL_H_APP",
@@ -45788,7 +45798,7 @@
         "inbound_assignments": {
           "CHPPR1_EFINALD": "ATL_O_APP",
           "GLAVN2_EFINALD": "ATL_O_APP",
-          "GNDLF2_EFINALD": "ATL_O_APP",
+          "GNDLF3_EFINALD": "ATL_O_APP",
           "NE_FINALTRIPS": "ATL_O_APP",
           "SITTH3_EFINALD": "ATL_O_APP"
         }
@@ -45797,7 +45807,7 @@
         "inbound_assignments": {
           "CHPPR1_EFINALT": "ATL_O_APP",
           "GLAVN2_EFINALD": "ATL_O_APP",
-          "GNDLF2_EFINALT": "ATL_O_APP",
+          "GNDLF3_EFINALT": "ATL_O_APP",
           "NE_FINALTRIPS": "ATL_O_APP",
           "SITTH3_EFINALT": "ATL_O_APP"
         }
@@ -47599,7 +47609,7 @@
           "ATL_P_APP": ["ATL_F_APP", "ATL_G_APP", "ATL_Q_APP", "ATL_E_APP"],
           "ATL_G_APP": ["ATL_M_APP"],
           "ATL_E_APP": ["ATL_3E_APP"],
-          "ATL_F_APP": ["ATL_X_APP", "ATL_Z_APP"],
+          "ATL_F_APP": ["ATL_X_APP"],
           "ATL_X_APP": ["ATL_Z_APP"],
           "ATL_Z_APP": ["ATL_R_APP"],
           "ATL_M_APP": ["ATL_W_APP"],
@@ -48224,7 +48234,7 @@
           "ATL_P_APP": ["ATL_F_APP", "ATL_G_APP", "ATL_Q_APP", "ATL_E_APP"],
           "ATL_G_APP": ["ATL_M_APP"],
           "ATL_E_APP": ["ATL_3E_APP"],
-          "ATL_F_APP": ["ATL_X_APP", "ATL_Z_APP"],
+          "ATL_F_APP": ["ATL_X_APP"],
           "ATL_X_APP": ["ATL_Z_APP"],
           "ATL_Z_APP": ["ATL_R_APP"],
           "ATL_M_APP": ["ATL_W_APP"],
@@ -48658,7 +48668,7 @@
           "ATL_P_APP": ["ATL_F_APP", "ATL_G_APP", "ATL_Q_APP", "ATL_E_APP"],
           "ATL_G_APP": ["ATL_M_APP"],
           "ATL_E_APP": ["ATL_3E_APP"],
-          "ATL_F_APP": ["ATL_X_APP", "ATL_Z_APP"],
+          "ATL_F_APP": ["ATL_X_APP"],
           "ATL_X_APP": ["ATL_Z_APP"],
           "ATL_Z_APP": ["ATL_R_APP"],
           "ATL_M_APP": ["ATL_W_APP"],
@@ -48932,7 +48942,7 @@
         "GLAVN2 EAST": {
           "KATL": 10
         },
-        "GNDLF2": {
+        "GNDLF3": {
           "KATL": 10
         },
         "SITTH3": {
@@ -48953,7 +48963,7 @@
           "ATL_P_APP": ["ATL_F_APP", "ATL_G_APP", "ATL_Q_APP", "ATL_E_APP"],
           "ATL_G_APP": ["ATL_M_APP"],
           "ATL_E_APP": ["ATL_3E_APP"],
-          "ATL_F_APP": ["ATL_X_APP", "ATL_Z_APP"],
+          "ATL_F_APP": ["ATL_X_APP"],
           "ATL_X_APP": ["ATL_Z_APP"],
           "ATL_Z_APP": ["ATL_R_APP"],
           "ATL_M_APP": ["ATL_W_APP"],
